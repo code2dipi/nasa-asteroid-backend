@@ -40,7 +40,7 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
 - apiKey:                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
 
 #### The Path Parameters for second endpoint(asteroids/details) for testing in postman:
-The asteroid-Id from the previous endpoint response can be used to loop up details of specific asteroid.
+The asteroid-Id from the previous endpoint response can be used to look up details of specific asteroid.
 asteroid_id, api key
 
 ## Frontend(React)
