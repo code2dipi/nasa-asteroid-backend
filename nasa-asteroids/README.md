@@ -29,14 +29,14 @@ The backend aplication(REST API) will integrate the from NASA APIs endpoints(Neo
      2. http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
 
 ### Testing.
-1. The application can be tested on postman by sending HTTP GET:
+1. The application can be tested on postman:
 
 #### The Query Parameters for first endpoint(asteroids/landing):
-Key                       Value
 
-startDate                 YYYY-MM-DD (eg.2023-08-01)
-endDate                   YYYY-MM-DD  (2023-08-08) (7 days after start_date)
-apiKey                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
+
+- startDate                 YYYY-MM-DD (eg.2023-08-01)
+- endDate                   YYYY-MM-DD  (2023-08-08) (7 days after start_date)
+- apiKey                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
 
 #### The Path Parameters for second endpoint(asteroids/details) for testing in postman:
 The astroid_id from the previous endpoint response(list of aesteroids) can be used to loop up details of specific aesteroid.
