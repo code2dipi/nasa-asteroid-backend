@@ -21,15 +21,16 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
    ```bash
    git clone https://github.com/code2dipi/nasa-asteroid-backend.git
 
-2. Open the backend project in IntelliJ.
+2. Open the backend project in your preferred IDE (IntelliJ, Eclipse, etc.).
 3. Make sure you have the necessary dependencies installed by running `mvn clean install` in the terminal.
 4. Start the backend server by running the main class or using the IntelliJ run configuration.
-5. The backend endpoints will available at :
+5. The backend will be available at http://localhost:8080.
+5. The REST endpoints to integrate with NASA APIs :
      1. http://localhost:8080/api/asteroids/landing?startDate=2023-08-01&endDate=2023-08-08&apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
      2. http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
 
 ### Testing.
-1. The application can be tested on postman:
+1. The application can be tested on Postman by sending an HTTP GET request.
 
 #### The Query Parameters for first endpoint(asteroids/landing):
 
