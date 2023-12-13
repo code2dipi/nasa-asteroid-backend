@@ -30,7 +30,7 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
      - http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
 
 ### Testing.
-1. The application can be tested on Postman by sending an HTTP GET request.
+The application can be tested on Postman by sending an HTTP GET request.
 
 #### The Query Parameters for first endpoint(asteroids/landing):
 
