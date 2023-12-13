@@ -4,7 +4,7 @@
 
 
 This application consists of a Spring Boot backend and a React frontend for exploring NASA's asteroid data.
-The backend aplication(REST API) will integrate the from NASA APIs endpoints(Neo -Feed and Neo-Lookup).
+The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Feed and Neo-Lookup).
 
 ## Backend (Spring Boot)
 
@@ -34,12 +34,12 @@ The backend aplication(REST API) will integrate the from NASA APIs endpoints(Neo
 #### The Query Parameters for first endpoint(asteroids/landing):
 
 
-- startDate                 YYYY-MM-DD (eg.2023-08-01)
-- endDate                   YYYY-MM-DD  (2023-08-08) (7 days after start_date)
-- apiKey                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
+- startDate:                 YYYY-MM-DD (eg.2023-08-01)
+- endDate:                   YYYY-MM-DD  (2023-08-08) (7 days after start_date)
+- apiKey:                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
 
 #### The Path Parameters for second endpoint(asteroids/details) for testing in postman:
-The astroid_id from the previous endpoint response(list of aesteroids) can be used to loop up details of specific aesteroid.
+The asteroid-Id from the previous endpoint response can be used to loop up details of specific asteroid.
 asteroid_id, api key
 
 ## Frontend(React)
