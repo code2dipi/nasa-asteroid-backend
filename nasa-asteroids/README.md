@@ -24,7 +24,7 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
 2. Open the backend project in IntelliJ.
 3. Make sure you have the necessary dependencies installed by running `mvn clean install` in the terminal.
 4. Start the backend server by running the main class or using the IntelliJ run configuration.
-5. The backend will available at :
+5. The backend endpoints will available at :
      1. http://localhost:8080/api/asteroids/landing?startDate=2023-08-01&endDate=2023-08-08&apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
      2. http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
 
