@@ -1,4 +1,3 @@
-
 ### 
 # NASA Asteroids Explorer
 
@@ -26,11 +25,11 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
 4. Start the backend server by running the main class or using the IntelliJ run configuration.
 5. The backend will be available at http://localhost:8080.
 5. The REST endpoints to integrate with NASA APIs :
-     1. http://localhost:8080/api/asteroids/landing?startDate=2023-08-01&endDate=2023-08-08&apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
-     2. http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
+     - http://localhost:8080/api/asteroids/landing?startDate=2023-08-01&endDate=2023-08-08&apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
+     - http://localhost:8080/api/asteroids/details/54376887?apiKey=dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr
 
 ### Testing.
-1. The application can be tested on Postman by sending an HTTP GET request.
+The application can be tested on Postman by sending an HTTP GET request.
 
 #### The Query Parameters for first endpoint(asteroids/landing):
 
@@ -40,7 +39,7 @@ The backend application(REST API) will integrate the NASA APIs endpoints(Neo -Fe
 - apiKey:                   dhYabotopiVNsXMDMyLkGLE3EjomwBi8jMVipGzr 
 
 #### The Path Parameters for second endpoint(asteroids/details) for testing in postman:
-The asteroid-Id from the previous endpoint response can be used to loop up details of specific asteroid.
+The asteroid-Id from the previous endpoint response can be used to look up details of specific asteroid.
 asteroid_id, api key
 
 ## Frontend(React)
@@ -71,6 +70,3 @@ asteroid_id, api key
 - Access the React app at http://localhost:3000.
 - Explore asteroids data using the provided date picker(Date limit is 7 days from the start date)
 - Click on "Details" to view more information about a specific asteroid.
-
-
-   
